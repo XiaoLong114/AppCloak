@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- 隐藏记录属于隐私数据，禁止备份 -->
+    <exclude domain="sharedpref" path="appcloak_prefs.xml" />
+</full-backup-content>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 兜帽 / 斗篷 -->
+    <path
+        android:pathData="M54,31 C43,31 37,40 37,52 L37,69 C37,72.5 40,74.5 43,72.5 L54,65.5 L65,72.5 C68,74.5 71,72.5 71,69 L71,52 C71,40 65,31 54,31 Z"
+        android:fillColor="#FFFFFFFF" />
+
+    <!-- 眼睛（用背景深色挖空） -->
+    <path
+        android:pathData="M48.5,50 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0"
+        android:fillColor="#FF321E63" />
+    <path
+        android:pathData="M59.5,50 m-3.2,0 a3.2,3.2 0 1,0 6.4,0 a3.2,3.2 0 1,0 -6.4,0"
+        android:fillColor="#FF321E63" />
+</vector>

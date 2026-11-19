@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">应用隐身衣</string>
+
+    <string name="tab_apps">应用列表</string>
+    <string name="tab_hidden">已隐藏</string>
+    <string name="tab_settings">设置</string>
+
+    <string name="search_hint">搜索应用名称或包名</string>
+    <string name="root_ok">Root 已就绪</string>
+    <string name="root_missing">未检测到 Root 权限</string>
+    <string name="root_hint">设备需已 root 并正确安装 su（Magisk / KernelSU 等），首次操作请在弹窗中授权。</string>
+    <string name="retry">重试</string>
+
+    <string name="mode_pm">禁用应用</string>
+    <string name="mode_pm_desc">pm disable-user：应用从桌面消失且无法运行、收不到通知。恢复用 pm enable。</string>
+    <string name="mode_db">桌面数据库</string>
+    <string name="mode_db_desc">只改桌面数据库：应用仍可运行，仅从抽屉隐藏。需按你的桌面自行配置 SQL。</string>
+
+    <string name="hide">隐藏</string>
+    <string name="unhide">恢复</string>
+    <string name="hide_selected">隐藏所选 (%1$d)</string>
+    <string name="restore_all">全部恢复</string>
+    <string name="system_app">系统应用</string>
+    <string name="already_disabled">已隐藏</string>
+    <string name="no_hidden">还没有隐藏任何应用</string>
+    <string name="hidden_count">已隐藏 %1$d 个应用</string>
+    <string name="confirm_restore_all">确定恢复全部隐藏应用？</string>
+    <string name="confirm_hide">确定隐藏「%1$s」？隐藏后该应用将无法运行。</string>
+    <string name="confirm_hide_selected_pm">确定隐藏所选的 %1$d 个应用？隐藏后这些应用将无法运行。</string>
+    <string name="confirm_hide_selected_db">确定从桌面隐藏所选的 %1$d 个应用？应用仍可运行。</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+
+    <string name="biometric_title">解锁应用隐身衣</string>
+    <string name="biometric_subtitle">验证身份后管理隐藏应用</string>
+    <string name="biometric_fallback">使用设备密码</string>
+    <string name="biometric_enable">启动时验证</string>
+    <string name="biometric_enable_desc">打开 App 时需通过指纹、面部或设备密码验证</string>
+    <string name="biometric_unavailable">本机未配置可用的生物识别或设备密码</string>
+    <string name="biometric_failed">验证失败，请重试</string>
+    <string name="biometric_required">已开启启动验证，请验证后使用</string>
+    <string name="lock_now">立即锁定</string>
+
+    <string name="section_general">常规</string>
+    <string name="section_launcher">桌面数据库配置</string>
+    <string name="section_about">关于</string>
+    <string name="launcher_desc">配置某款桌面的 SQLite 路径和 SQL 模板，切换到「桌面数据库」模式后生效。不同桌面差异很大，请先确认你的桌面实现。</string>
+    <string name="add_config">新增配置</string>
+    <string name="edit_config">编辑配置</string>
+    <string name="delete">删除</string>
+    <string name="config_name">配置名称</string>
+    <string name="config_launcher_pkg">桌面包名</string>
+    <string name="config_db_path">数据库路径（相对桌面 data 目录）</string>
+    <string name="config_query_sql">查询已隐藏（返回包名列）</string>
+    <string name="config_hide_sql">隐藏 SQL（{pkg} 为占位符）</string>
+    <string name="config_unhide_sql">恢复 SQL（{pkg} 为占位符）</string>
+    <string name="config_save">保存配置</string>
+    <string name="config_test">测试查询</string>
+    <string name="config_test_ok">查询成功，返回 %1$d 行</string>
+    <string name="config_invalid">请填写完整的名称、桌面包名和数据库路径</string>
+    <string name="no_config">还没有桌面配置，点右下角新增</string>
+    <string name="config_imported_preset">已导入预设：%1$s</string>
+    <string name="config_title">桌面数据库配置</string>
+    <string name="config_edit_title">编辑配置</string>
+    <string name="enable">启用</string>
+    <string name="current">当前</string>
+    <string name="test_result">测试结果：%1$s</string>
+    <string name="back">返回</string>
+
+    <string name="self_hide_blocked">不能隐藏本工具自身</string>
+    <string name="operation_failed">操作失败：%1$s</string>
+    <string name="operation_done">已完成</string>
+    <string name="disclaimer_title">风险提示</string>
+    <string name="disclaimer">本工具需要 root 权限，通过 su 执行系统命令。禁用系统关键应用可能导致设备无法正常使用，请谨慎操作并自行承担风险。切换桌面数据库模式前请备份数据。</string>
+    <string name="version">版本 1.0.0</string>
+</resources>
