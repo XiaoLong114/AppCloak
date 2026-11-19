@@ -111,3 +111,9 @@ AppCloak/
 │   └── ui/                             Compose 界面与 MainViewModel
 └── tools/generate_icons.py             生成 mipmap 图标（纯标准库）
 ```
+
+---
+
+## 开源协议
+
+本项目采用 [MIT License](LICENSE)，可自由使用、修改与分发。
